@@ -1,3 +1,6 @@
+# Bliss Viper Audio Mod
+BLISS_AUDIO_MOD := viper
+
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
@@ -19,9 +22,6 @@ TARGET_VENDOR_PRODUCT_NAME := XT925
 TARGET_VENDOR_DEVICE_NAME := vanquish_u
 
 $(call inherit-product, device/motorola/xt925/full_xt925.mk)
-
-#Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=motorola/XT925_rtfr/vanquish_u:4.4.2/KDA20.127/59:user/release-keys \
